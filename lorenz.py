@@ -52,7 +52,7 @@ for i in range(10000):
 fig = plt.figure(figsize=(10, 7))
 ax = fig.add_subplot(111, projection='3d')
 ax.plot(xs, ys, zs, lw=0.5, color='blue')
-ax.plot(xs2, ys2, zs2, lw=0.5, color='green')
+ax.plot(xs2, ys2, zs2, lw=0.5, color='red')
 ax.set_title("Lorenz Attractor")
 ax.set_xlabel("X")
 ax.set_ylabel("Y")
